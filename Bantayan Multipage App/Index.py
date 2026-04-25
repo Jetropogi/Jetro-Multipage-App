@@ -7,6 +7,9 @@ st.title("Welcome to my Portfolio")
 st.write("""
 Navigate through my portfolio using the sidebar👌
 
+st.sidebar.title("Navigation")
+page = st.sidebar.radio("Go to", ["Dashboard", "About Me", "Skills", "Contacts"])
+
 Sections included:
 -🏠 Dashboard
 -🤓 About Me
